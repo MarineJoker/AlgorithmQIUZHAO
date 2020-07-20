@@ -11,7 +11,7 @@
 | 350 | [两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)| 简单 |数组 | - |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one/)| 简单 |数组 | - |
 | 120 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/)| 中等 | 数组 | - |
-| 66 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)| 中等 |数组、哈希 | - |
+| 49 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)| 中等 |数组、哈希 | - |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| 简单 |数组 | - |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)| 简单 |数组、哈希 | - |
 
