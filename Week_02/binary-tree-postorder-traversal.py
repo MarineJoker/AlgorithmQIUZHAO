@@ -21,3 +21,17 @@ class Solution:
         if root: self.find_level(root)
         return self.ans_list
 
+    # iteratively
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
+        res, stack = [], deque([])
+        if not root: return res
+        # 栈模拟递归
+        stack.appendleft(root)
+        while stack:
+            tmp = stack.popleft()
+            res.append(tmp.val)
+            if tmp.left:
+                stack.appendleft(tmp.left)
+            if tmp.right:
+                stack.appendleft(tmp.right)
+        return res[::-1]
