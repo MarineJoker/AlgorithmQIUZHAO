@@ -46,3 +46,17 @@ dp[n] = dp[n-1] + dp[n-2]
 ### 5.感悟
 动态规划其实就是相当于去掉了递归中“递”的部分，不用函数的递归方式进行我们不可控的状态扩散，而是通过我们提炼的状态转义方程去定向回溯。
 
+### python快排简写  
+```python
+def quicksort(list):
+    if len(list)<2:
+        return list
+    else:
+        midpivot = list[0]
+        lessbeforemidpivot = [i for i in list[1:] if i<=midpivot]
+        biggerafterpivot = [i for i in list[1:] if i > midpivot]
+        finallylist = quicksort(lessbeforemidpivot)+[midpivot]+quicksort(biggerafterpivot)
+        return finallylist
+
+print quicksort([2,4,6,7,1,2,5])
+```
